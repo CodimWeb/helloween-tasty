@@ -1,0 +1,21 @@
+* {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Radiance;
+  src: url("../fonts/Radiance.ttf") format("truetype"), url("../fonts/radiance.eot?#iefix") format("embedded-opentype"), url("../fonts/Radiance.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Radiance-Semibold;
+  src: url("../fonts/Radiance-Semibold.ttf") format("truetype"), url("../fonts/radiance-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Radiance-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Radiance-Bold;
+  src: url("../fonts/Radiance-Bold.ttf") format("truetype"), url("../fonts/radiance-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Radiance-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Radiance;
+}
+
+* {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
