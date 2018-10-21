@@ -26,7 +26,80 @@
 }
 
 
+$rr: Radiance, sans-serif;
+$rs: Radiance-Semibold, sans-serif;
+$rb: Radiance-Bold, sans-serif;
+
 
 body {
-  font-family: Radiance;
+  font-family: $rs;
 }
+
+.title {
+  text-transform: uppercase;
+  font-size: 52px;
+  font-family: $rb;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #fff 0, #c8d48c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+  @media (max-width: 991px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 479px) {
+    font-size: 20px;
+  }
+
+  &--lg {
+    font-size: 94px;
+    margin: 33px 0 0;
+    letter-spacing: 7px;
+
+    @media (max-width: 1199px) {
+      font-size: 78px;
+    }
+
+    @media (max-width: 991px) {
+      font-size: 66px;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 479px) {
+      font-size: 28px;
+      margin-bottom: 12px;
+      margin-top: 20px;
+    }
+  }
+
+  &--egg-type {
+    margin: 0;
+    letter-spacing: 4px;
+
+    @media (max-width: 767px) {
+      letter-spacing: 1px;
+    }
+  }
+
+  &--drop {
+    letter-spacing: 4px;
+
+    @media (max-width: 767px) {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+

@@ -1,0 +1,46 @@
+.btn-egg { 
+	width: 100%; 
+	max-width: 700px; 
+	background-color: #eb732a; 
+	background-image: linear-gradient(to bottom, #eb732a 0, #d44012 100%, ); 
+	color: #fff; 
+	font-family: $rb; 
+	font-size: 32px; 
+	margin: 0 auto; 
+	display: block; 
+	border-radius: 10px; 
+	box-shadow: 0px 2px 33px 2px #eb732a; 
+	padding:20px 0; 
+	cursor: pointer; 
+	border: none; 
+
+	&:hover { 
+		color: #fff; 
+		background-image: linear-gradient(to bottom, #d44012 0, #eb732a 100%, ); 
+} 
+
+	&:active, 
+	&:focus { 
+		color: #fff; 
+		border: none; 
+		box-shadow: 0px 2px 33px 2px #eb732a; 
+		background-color: #eb732a; 
+		background-image: none; 
+	}
+
+	@media (max-width: 991px) {
+		font-size: 26px;
+		max-width: 600px;
+		padding: 15px 0;
+	}
+
+	@media (max-width: 767px) {
+		font-size: 18px;
+		max-width: 400px;
+	}
+
+	@media (max-width: 479px) {
+		font-size: 13px;
+    max-width: 280px;
+	}
+}

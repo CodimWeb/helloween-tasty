@@ -10,18 +10,207 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 </head>
 <body>
- 
- <div class="container">
-    <div class="row">
-      <div class="col-md-3">123</div>
-      <div class="col-md-3">123</div>
-      <div class="col-md-3">123</div>
-      <div class="col-md-3">123</div>
+  <div class="header">
+    <!-- картинки
+        img/baner-zeus.png
+        baner-diray.png
+        baner-dota.png
+        baner-goodwin.png
+        baner-invoker.png
+        baner-misisipi.png
+        baner-panda.png
+     -->
+    <div class="header__baner" style="background-image: url(img/baner-zeus.png)">
+      
     </div>
- </div>
-<!--   <p >КАЖДОМУ ПО ЯЙЦУ</p>
-  <p style="font-family: Radiance-Semibold;">КАЖДОМУ ПО ЯЙЦУ</p>
-  <p style="font-family: Radiance-Bold;">КАЖДОМУ ПО ЯЙЦУ</p> -->
+    <div class="header__panel">
+      <div class="header__logo">
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+      </div>
+      <h2 class="title title--lg text-uppercase">КАЖДОМУ ПО ЯЙЦУ</h2>
+      <p class="header__subtitle">Хеллоуин на тестидроп</p>
+    </div>
+  </div>
+  <!-- 
+    фоны промокода
+    bg-promocode.png
+    bg-promocode-borodach.png
+    bg-promocode-diray.png
+    bg-promocode-dota.png
+    bg-promocode-goodwin.png
+    bg-promocode-igor.png
+    bg-promocode-misisipi.png
+    bg-promocode-panda.png
+   -->
+  <div class="promocode" style="background-image: url(img/bg-promocode-diray.png)">
+    <p class="promocode__title">
+      При пополнении используй промокод
+      <span class="code">PROMOCODE</span>
+      и получи яйцо бесплатно
+    </p>
+  </div>
+  <div>
+    <a href="#" class="btn btn-egg text-center">Получить яйцо грявола со скинами внутри</a>
+  </div>
+  <div class="bat">
+    <div class="bat__img">
+      <img src="img/bat.png" alt="" class="bat__img">
+    </div>
+    <div class="bat__line"></div>
+  </div>
+  <div class="egg-type">
+    <h2 class="title title--egg-type">Какие бывают яйца</h2>
+    <div class="egg-type__palette">
+      <div class="egg-type__container">
+        <div class="egg-type__list">
+
+          <div class="egg-type__item egg-type__item--uncommon">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-uncommon.png" alt="">
+              </div>
+              <div class="egg-type__item__name uncommon">UNCOMMON</div>
+            </div>
+          </div>
+
+          <div class="egg-type__item egg-type__item--rare">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-rare.png" alt="">
+              </div>
+              <div class="egg-type__item__name rare">RARE</div>
+            </div>
+          </div>
+
+          <div class="egg-type__item egg-type__item--mythical">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-mythical.png" alt="">
+              </div>
+              <div class="egg-type__item__name mythical">Mythical</div>
+            </div>
+          </div>
+
+          <div class="egg-type__item egg-type__item--legendary">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-legendary.png" alt="">
+              </div>
+              <div class="egg-type__item__name legendary">LEGENDARY</div>
+            </div>
+          </div>
+
+          <div class="egg-type__item egg-type__item--immortal">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-immortal.png" alt="">
+              </div>
+              <div class="egg-type__item__name immortal">IMMORTAL</div>
+            </div>
+          </div>
+
+          <div class="egg-type__item egg-type__item--arcana">
+            <div class="egg-type__item__content">
+              <div class="egg-type__item__photo">
+                <img src="img/egg-arcana.png" alt="">
+              </div>
+              <div class="egg-type__item__name arcana">ARCANA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="egg-info">
+    <h2 class="title">Что известно о яйцах?</h2>
+    <div class="egg-info__row">
+      <div class="egg-info__item">
+        <div class="egg-info__item__title">У яиц есть <br/>7  редкостей</div>
+        <div class="egg-info__item__img">
+          <img src="img/1.gif" alt="">
+        </div>
+      </div>
+      <div class="egg-info__item">
+        <div class="egg-info__item__title">Яйца можно<br>улучшить или<br/>продать</div>
+        <div class="egg-info__item__img">
+          <img src="img/2.gif" alt="">
+        </div>
+      </div>
+      <div class="egg-info__item">
+        <div class="egg-info__item__title">Из каждого яйца<br/>может вылупиться<br/>вещь</div>
+        <div class="egg-info__item__img">
+          <img src="img/3.gif" alt="">
+        </div>
+      </div>
+      <div class="egg-info__item">
+        <div class="egg-info__item__title">Чем реже редкость,<br/>тем лучше вещь<br/>из яйца</div>
+        <div class="egg-info__item__img">
+          <img src="img/4.gif" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="drop">
+    <h2 class="title title--drop">Что Может выпасть из яиц грявола?</h2>
+    <div class="drop-panel">
+      <div class="drop-list">
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item1.jpg" alt="">
+          </div>
+          <div class="drop-item__name arcana">
+            <span>Bladeform Legacy</span>
+          </div>
+        </a>
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item2.jpg" alt="">
+          </div>
+          <div class="drop-item__name legendary">
+            <span>Feast of Abscession</span>
+          </div>
+        </a>
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item3.jpg" alt="">
+          </div>
+          <div class="drop-item__name mythical">
+            <span>Origins of Faith</span>
+          </div>
+        </a>
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item4.jpg" alt="">
+          </div>
+          <div class="drop-item__name immortal">
+            <span>Magus Apex</span>
+          </div>
+        </a>
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item5.jpg" alt="">
+          </div>
+          <div class="drop-item__name rare">
+            <span>Resistive Pinfold</span>
+          </div>
+        </a>
+        <a href="#" class="drop-item">
+          <div class="drop-item__img">
+            <img src="img/item6.jpg" alt="">
+          </div>
+          <div class="drop-item__name uncommon">
+            <span>Razzil's Midas Knuckles</span>
+          </div>
+        </a>
+        <p class="drop-list__others">и многое другое...</p>
+      </div>
+      <a href="#" class="btn btn-egg text-center">Посмотреть, что за яйцо такое</a>
+    </div>
+    <div class="text-center">
+      <a href="" "><img src="img/footer-logo.png" alt=""></a>
+    </div>
+  </div>
+
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
