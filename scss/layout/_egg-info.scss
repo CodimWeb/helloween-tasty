@@ -33,23 +33,27 @@
 			font-size: 28px;
 			line-height: 32px;
 			margin-bottom: 37px;
+			min-height: 96px;
 
 			@media (max-width: 1199px) {
 				font-size: 22px;
 		    line-height: 28px;
 		    margin-bottom: 30px;
+		    min-height: 84px;
 			}
 
 			@media (max-width: 991px) {
 				font-size: 18px;
 		    line-height: 24px;
 		    margin-bottom: 20px;
+		    min-height: 72px;
 			}
 
 			@media (max-width: 479px) {
 				font-size: 14px;
 		    line-height: 20px;
 		    margin-bottom: 13px;
+		    min-height: 60px;
 			}
 		}
 
@@ -67,7 +71,8 @@
 
 		@media (max-width: 767px) {
 			flex: 0 0 50%;
-    	max-width: 50%;
+    	max-width: 49%;
+    	display: inline-block;
 			margin-bottom: 30px;
 		}
 
