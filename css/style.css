@@ -732,6 +732,14 @@ body {
   }
 }
 
+@media (max-width: 479px) {
+  .drop-panel {
+    margin: 35px auto 0;
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+}
+
 .drop-list {
   margin-right: -15px;
   margin-left: -15px;
