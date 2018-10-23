@@ -28,23 +28,11 @@
 		position: relative;
 		z-index: 4;
 		padding-top: 40px;
-		background-image: url(../img/main-egg.png);
 		background-position: center 72px;
 		background-repeat: no-repeat;
-		padding-bottom: 482px;
-
-		@media (max-width: 991px) {
-			background-position-y: 12px;	
-		}
-
-		@media (max-width: 767px) {
-			padding-bottom: 390px;
-			background-position-y: 36px;
-			background-size: cover;
-		}
+		overflow: hidden;
 
 		@media (max-width: 479px) {
-			padding-bottom: 240px;
 			padding-top: 20px;
 		}
 	}
@@ -67,6 +55,8 @@
 		text-align: center;
 		text-transform: uppercase;
 		letter-spacing: 6px;
+		position: relative;
+		z-index: 10;
 
 		@media (max-width: 991px) {
 			font-size: 34px;
